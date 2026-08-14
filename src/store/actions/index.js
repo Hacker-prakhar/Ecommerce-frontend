@@ -37,7 +37,7 @@ export const fetchCategories = () => async (dispatch) => {
     try {
         dispatch({ type: "CATEGORY_LOADER" });
 
-        const { data } = await api.get(`/public/categories`);
+        const { data } = await api.get("/public/categories");
 
         dispatch({
             type: "FETCH_CATEGORIES",
@@ -49,7 +49,8 @@ export const fetchCategories = () => async (dispatch) => {
             lastPage: data.lastPage,
         });
 
-        dispatch({ type: "IS_ERROR" });
+        dispatch({ type: "IS_SUCCESS" });
+
     } catch (error) {
         console.log(error);
 
