@@ -11,7 +11,7 @@ api.interceptors.request.use(
         try {
             const auth = localStorage.getItem("auth");
 
-            if (auth) {
+            if (auth) {-
                 const user = JSON.parse(auth);
 
                 if (user?.jwtToken) {
