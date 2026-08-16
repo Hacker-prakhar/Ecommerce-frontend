@@ -3,7 +3,7 @@ import logo from "../assets/ecommerce_logo.jpeg";
 
 const products = [
     {
-        image: "http://res.cloudinary.com/zsypxb04/image/upload/v1786894536/g6sfls5km3ygkwebpvoe.jpg",
+        image: "https://res.cloudinary.com/zsypxb04/image/upload/v1786894536/g6sfls5km3ygkwebpvoe.jpg",
         productName: "🌀 Washing Machine",
         description:
           "A modern washing machine designed for efficiency and convenience. It features multiple wash programs, energy‑saving technology, and a durable drum that handles both delicate fabrics and heavy loads. With smart sensors to adjust water and detergent usage, it ensures cleaner clothes while reducing waste.",
@@ -11,7 +11,7 @@ const products = [
         price: 780,
       },
       {
-        image: "http://res.cloudinary.com/zsypxb04/image/upload/v1786894571/tqrxixecighmic2ec2cp.jpg",
+        image: "https://res.cloudinary.com/zsypxb04/image/upload/v1786894571/tqrxixecighmic2ec2cp.jpg",
         productName: "📱 Smartphone",
         description:
           "A sleek smartphone built for performance and connectivity. Equipped with a high‑resolution display, powerful processor, and long‑lasting battery, it supports multitasking, gaming, and streaming with ease. Advanced camera systems capture stunning photos and videos, while 5G support keeps you connected at lightning speed.",
@@ -19,7 +19,7 @@ const products = [
         price: 799,
       },
       {
-        image:"http://res.cloudinary.com/zsypxb04/image/upload/v1786894454/rsrnili8qs7jj0fxss4r.jpg",
+        image:"https://res.cloudinary.com/zsypxb04/image/upload/v1786894454/rsrnili8qs7jj0fxss4r.jpg",
         productName: "👟 Sports Shoes",
         description:
           "Lightweight sports shoes engineered for comfort and agility. They feature breathable mesh uppers, cushioned midsoles, and durable outsoles for maximum grip. Ideal for running, training, or casual wear, these shoes combine style with performance to keep you moving effortlessly.",
