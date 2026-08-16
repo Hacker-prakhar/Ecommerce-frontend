@@ -64,7 +64,7 @@ const About = () => {
                     description={product.description}
                     specialPrice={product.specialPrice}
                     price={product.price}
-                    quantity = 0 
+                    quantity = {0}
                     about
                 />
                ))
