@@ -269,8 +269,13 @@ export const logOutUser =
         });
 
         localStorage.removeItem("auth");
-
+localStorage.removeItem("cartItems");
+localStorage.removeItem("CHECKOUT_ADDRESS");
+dispatch({
+    type: "CLEAR_CART"
+});
         navigate("/login");
+
     };
 
 

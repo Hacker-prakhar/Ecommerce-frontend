@@ -63,11 +63,7 @@ const Cart = () => {
                     </p>
 
                     <Link className="w-full flex justify-end" to="/checkout">
-                   {localStorage.getItem("auth") ? (
-  <></> // or your checkout component here
-) : (
-  toast.error('Cannot checkout without signing in')
-)}
+                  
 
                     <button
                         onClick={() => {}}
